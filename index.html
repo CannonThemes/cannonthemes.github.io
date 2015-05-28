@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- HTML META TAGS -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Cannon Themes" />
+
+<!-- FAVICON -->
+<link rel="icon" href="assets/img/favicon.ico" />
+
+<!-- SCRIPTS & PLUGINS -->
+<script type="text/javascript" src="js/vendors/jquery.min.js"></script>
+<script type="text/javascript" src="js/vendors/modernizr.min.js"></script>
+<script type="text/javascript" src="js/vendors/modetect.min.js"></script>
+<script type="text/javascript" src="js/vendors/easing.min.js"></script>
+
+<!-- TYPEKIT & GOOGLE ANALYTICS -->
+<script type="text/javascript" src="http://use.typekit.net/nnb3css.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+        <!-- TITLE & FAVICON -->
+        <title>Cannon Themes</title>
+
+        <!-- STYLES -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <!-- SCRIPTS & PLUGINS -->
+        <script type="text/javascript" src="js/functions.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var aImages = [
+                    "assets/img/splash/landscape.jpg","assets/img/splash/cloud-1.png","assets/img/splash/cloud-2.png","assets/img/splash/cloud-3.png","assets/img/splash/cross.png","assets/img/splash/light.png","assets/img/splash/logo.png","assets/img/splash/mask.png"                ];
+
+                splash.preload(aImages);
+            });
+        </script>
+    </head>
+    <body>
+        <!-- SCENE -->
+        <div id="splash" class="page">
+            <div id="loader">
+                <div class="progress"></div>
+                <p>Loading...</p>
+            </div>
+            <div id="scene-wrap">
+                <div id="scene">
+                    <div class="mask layer"></div>
+                    <div class="content">
+                        <div class="title layer">
+                            <h1>Cannon Themes</h1>
+                            <p class="status">Download Purchased Templates For Free <a href="https://github.com/CannonThemes/cannonthemes.github.io" target="_blank"><strong>Download Now</strong></a></p>
+                            <p class="dogname"><em>2015 &copy; Copyright</em></p>
+                            <div class="socials">
+                                <ul>
+                                    <!-- <li><a href="https://www.facebook.com/" class="fbk" target="_blank">Facebook</a></li>
+                                    <li><a href="https://twitter.com/" class="twt" target="_blank">Twitter</a></li>
+                                    <li><a href="https://www.linkedin.com/" class="lnk" target="_blank">LinkedIn</a></li>
+                                    <li><a href="https://dribbble.com/" class="drb" target="_blank">Dribbble</a></li>-->
+                                    <li class="last"><a href="mailto:support@cannonthemes.pixub.com" class="ltr" target="_blank">Email</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="light layer" data-depth="0.6"></div>
+                        <div class="clouds">
+                            <div class="cloud-1"></div>
+                            <div class="cloud-2"></div>
+                            <div class="cloud-3"></div>
+                        </div>
+
+                        <div class="clouds-loop">
+                            <div class="cloud-1"></div>
+                            <div class="cloud-2"></div>
+                            <div class="cloud-3"></div>
+                        </div>
+                        <div class="logo layer" data-depth="1"></div>
+                        <div class="background layer" data-depth="0.5"><img src="assets/img/splash/landscape.jpg" alt="" /></div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <p class="copyright">&copy; 2015 - Made With Love - Cannon Themes</p>
+            </div>
+        </div>
+        <!-- END SCENE -->
+
+        <script type="text/javascript" src="js/vendors/parallax.js"></script>
+    </body>
+</html>
